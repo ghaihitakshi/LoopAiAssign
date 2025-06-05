@@ -84,8 +84,8 @@ Install npm.
 bash
 
 
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+git clone
+cd 
 3. Install Dependencies
 bash
 
@@ -132,14 +132,14 @@ Ingestion API
 bash
 
 
-curl -X POST https://your-app-name.onrender.com/ingest \
+curl -X POST  https://loopai-ingestion.onrender.com/ \
 -H "Content-Type: application/json" \
 -d '{"ids": [1, 2, 3, 4, 5], "priority": "HIGH"}'
 Status API
 bash
 
 
-curl https://your-app-name.onrender.com/status/<ingestion_id>
+curl  https://loopai-ingestion.onrender.com/status/<ingestion_id>
 Project Structure
 javascript
 
